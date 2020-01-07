@@ -59,12 +59,218 @@ footer {
 
 
 .filter-system{
-    width: 20%;
+    width: 25%;
     font-size: 1em;
     border: 3px solid rgb(209, 209, 209);
     padding: 3px;
+    float: left;
 }
 
+.color-palettes{
+    float: right;
+    width: 70%;
+    text-align: center;
+}
+
+/* filter system */
+
+.invisible{
+    display: none;
+}
+
+/* color palettes */
+
+.s-yellow{
+    background-color: rgb(255,255,0);
+    padding: 0.3em;
+}
+
+.s-yellowgreen{
+    background-color: rgb(128,255,0);
+    padding: 0.3em;
+}
+
+.s-green{
+    background-color: rgb(0,255,0);
+    padding: 0.3em;
+}
+
+.s-bluegreen{
+    background-color: rgb(0,255,255);
+    padding: 0.3em;
+}
+
+.s-blue{
+    background-color: rgb(0,0,255);
+    padding: 0.3em;
+}
+
+.s-bluepurple{
+    background-color: rgb(128,0,255);
+    padding: 0.3em;
+}
+
+.s-purple{
+    background-color: rgb(255,0,255);
+    padding: 0.3em;
+}
+
+.s-redpurple{
+    background-color: rgb(255,0,128);
+    padding: 0.3em;
+}
+
+.s-red{
+    background-color: rgb(255,0,0);
+    padding: 0.3em;
+}
+
+.s-redorange{
+    background-color: rgb(255,64,0);
+    padding: 0.3em;
+}
+
+.s-orange{
+    background-color: rgb(255,128,0);
+    padding: 0.3em;
+}
+
+.s-yelloworange{
+    background-color: rgb(255,192,0);
+    padding: 0.3em;
+}
+
+.p-yellow{
+    background-color: rgb(255,255,153);
+    padding: 0.3em;
+}
+
+.p-yellowgreen{
+    background-color: rgb(204,255,153);
+    padding: 0.3em;
+}
+
+.p-green{
+    background-color: rgb(153,255,153);
+    padding: 0.3em;
+}
+
+.p-bluegreen{
+    background-color: rgb(153,255,255);
+    padding: 0.3em;
+}
+
+.p-blue{
+    background-color: rgb(153,153,255);
+    padding: 0.3em;
+}
+
+.p-bluepurple{
+    background-color: rgb(204,153,255);
+    padding: 0.3em;
+}
+
+.p-purple{
+    background-color: rgb(255,153,255);
+    padding: 0.3em;
+}
+
+.p-redpurple{
+    background-color: rgb(255,153,204);
+    padding: 0.3em;
+}
+
+.p-red{
+    background-color: rgb(255,153,153);
+    padding: 0.3em;
+}
+
+.p-redorange{
+    background-color: rgb(255,171,141);
+    padding: 0.3em;
+}
+
+.p-orange{
+    background-color: rgb(255,204,153);
+    padding: 0.3em;
+}
+
+.p-yelloworange{
+    background-color: rgb(255,227,131);
+    padding: 0.3em;
+}
+
+.d-yellow{
+    background-color: rgb(102,102,0);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-yellowgreen{
+    background-color: rgb(51,102,0);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-green{
+    background-color: rgb(0,102,0);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-bluegreen{
+    background-color: rgb(0,102,102);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-blue{
+    background-color: rgb(0,0,102);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-bluepurple{
+    background-color: rgb(51,0,102);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-purple{
+    background-color: rgb(102,0,102);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-redpurple{
+    background-color: rgb(102,0,51);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-red{
+    background-color: rgb(102,0,0);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-redorange{
+    background-color: rgb(102,30,3);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-orange{
+    background-color: rgb(102,51,0);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
+
+.d-yelloworange{
+    background-color: rgb(104,80,2);
+    color: rgb(255,255,255);
+    padding: 0.3em;
+}
 
 /* specifieke stijlen */
 
@@ -78,7 +284,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(0,0,0);
     text-decoration: none;
 }
 
@@ -87,7 +293,7 @@ a:hover {
 }
 
 
-/* navigatiebalk */
+/* navigatiebalk */ 
 nav ul {
     list-style-type: none;
     margin-bottom: 3%;

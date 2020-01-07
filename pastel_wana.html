@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>Informatie over mij</title>
+        <meta charset="utf-8" />
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                <h1>color palette generator</h1>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="color_theory.html">color theory</a></li>
+                    <li><a href="saturated.html">saturated colors</a></li>
+                    <li><a class="active" href="pastel.html">pastel colors</a></li>
+                    <li><a href="dark.html">dark colors</a></li>
+                </ul>
+            </nav>
+            
+            
+            <article>
+                <p class="filter-system">
+                <a href="pastel.html">all</a><br>
+                <a href="pastel_comp.html">complementary colors</a><br>
+                <a href="pastel_cana.html">cool analogous colors</a><br>
+                <a href="pastel_wana.html">warm analogous colors</a><br>
+                <a href="pastel_tri.html">triadic colors</a><br>
+                <a href="pastel_spl.html">split complementary colors</a><br>
+                <a href="pastel_tet.html">tetradic colors</a><br>
+                </p>
+            </article>
+
+            <article>
+                <p class="color-palettes">
+                <!--comp--><span class="invisible"><span class="p-yellow">yellow</span>-<span class="p-purple">purple</span><br><br><br><br></span>
+                <!--comp--><span class="invisible"><span class="p-yelloworange">yelloworange</span>-<span class="p-bluepurple">bluepurple</span><br><br><br><br></span>
+                <!--comp--><span class="invisible"><span class="p-orange">orange</span>-<span class="p-blue">blue</span><br><br><br><br></span>
+                <!--comp--><span class="invisible"><span class="p-redorange">redorange</span>-<span class="p-bluegreen">bluegreen</span><br><br><br><br></span>
+                <!--comp--><span class="invisible"><span class="p-red">red</span>-<span class="p-green">green</span><br><br><br><br></span>
+                <!--comp--><span class="invisible"><span class="p-yellowgreen">yellowgreen</span>-<span class="p-redpurple">redpurple</span><br><br><br><br></span>
+                <!--ana--><span class="invisible"><span class="p-yellow">yellow</span>-<span class="p-yellowgreen">yellowgreen</span>-<span class="p-green">green</span><br><br><br><br></span>
+                <!--ana--><span class="invisible"><span class="p-yellowgreen">yellowgreen</span>-<span class="p-green">green</span>-<span class="p-bluegreen">bluegreen</span><br><br><br><br></span>
+                <!--ana--><span class="invisible"><span class="p-green">green</span>-<span class="p-bluegreen">bluegreen</span>-<span class="p-blue">blue</span><br><br><br><br></span>
+                <!--ana--><span class="invisible"><span class="p-bluegreen">bluegreen</span>-<span class="p-blue">blue</span>-<span class="p-bluepurple">bluepurple</span><br><br><br><br></span>
+                <!--ana--><span class="invisible"><span class="p-blue">blue</span>-<span class="p-bluepurple">bluepurple</span>-<span class="p-purple">purple</span><br><br><br><br></span>
+                <!--ana--><span class="p-bluepurple">bluepurple</span>-<span class="p-purple">purple</span>-<span class="p-redpurple">redpurple</span><br><br><br><br>
+                <!--ana--><span class="p-purple">purple</span>-<span class="p-redpurple">redpurple</span>-<span class="p-red">red</span><br><br><br><br>
+                <!--ana--><span class="p-redpurple">redpurple</span>-<span class="p-red">red</span>-<span class="p-redorange">redorange</span><br><br><br><br>
+                <!--ana--><span class="p-red">red</span>-<span class="p-redorange">redorange</span>-<span class="p-orange">orange</span><br><br><br><br>
+                <!--ana--><span class="p-redorange">redorange</span>-<span class="p-orange">orange</span>-<span class="p-yelloworange">yelloworange</span><br><br><br><br>
+                <!--ana--><span class="p-orange">orange</span>-<span class="p-yelloworange">yelloworange</span>-<span class="p-yellow">yellow</span><br><br><br><br>
+                <!--ana--><span class="p-yelloworange">yelloworange</span>-<span class="p-yellow">yellow</span>-<span class="p-yellowgreen">yellowgreen</span><br><br><br><br>
+                <!--tri--><span class="invisible"><span class="p-yellow">yellow</span>-<span class="p-red">red</span>-<span class="p-blue">blue</span><br><br><br><br></span>
+                <!--tri--><span class="invisible"><span class="p-yelloworange">yelloworange</span>-<span class="p-redpurple">redpurple</span>-<span class="p-bluegreen">bluegreen</span><br><br><br><br></span>
+                <!--tri--><span class="invisible"><span class="p-orange">orange</span>-<span class="p-purple">purple</span>-<span class="p-green">green</span><br><br><br><br></span>
+                <!--tri--><span class="invisible"><span class="p-redorange">redorange</span>-<span class="p-bluepurple">bluepurple</span>-<span class="p-yellowgreen">yellowgreen</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-blue">blue</span>-<span class="p-yelloworange">yelloworange</span>-<span class="p-redorange">redorange</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-bluegreen">bluegreen</span>-<span class="p-orange">orange</span>-<span class="p-red">red</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-green">green</span>-<span class="p-redorange">redorange</span>-<span class="p-redpurple">redpurple</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-yellowgreen">yellowgreen</span>-<span class="p-red">red</span>-<span class="p-purple">purple</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-yellow">yellow</span>-<span class="p-redpurple">redpurple</span>-<span class="p-bluepurple">bluepurple</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-yelloworange">yelloworange</span>-<span class="p-purple">purple</span>-<span class="p-blue">blue</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-orange">orange</span>-<span class="p-bluepurple">bluepurple</span>-<span class="p-bluegreen">bluegreen</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-redorange">redorange</span>-<span class="p-blue">blue</span>-<span class="p-green">green</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-red">red</span>-<span class="p-bluegreen">bluegreen</span>-<span class="p-yellowgreen">yellowgreen</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-redpurple">redpurple</span>-<span class="p-green">green</span>-<span class="p-yellow">yellow</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-purple">purple</span>-<span class="p-yellowgreen">yellowgreen</span>-<span class="p-yelloworange">yelloworange</span><br><br><br><br></span>
+                <!--spl--><span class="invisible"><span class="p-bluepurple">bluepurple</span>-<span class="p-yellow">yellow</span>-<span class="p-orange">orange</span><br><br><br><br></span>
+                <!--tet--><span class="invisible"><span class="p-bluegreen">bluegreen</span>-<span class="p-bluepurple">bluepurple</span>-<span class="p-redorange">redorange</span>-<span class="p-yelloworange">yelloworange</span><br><br><br><br></span>
+                <!--tet--><span class="invisible"><span class="p-green">green</span>-<span class="p-blue">blue</span>-<span class="p-red">red</span>-<span class="p-orange">orange</span><br><br><br><br></span>
+                <!--tet--><span class="invisible"><span class="p-yellowgreen">yellowgreen</span>-<span class="p-bluegreen">bluegreen</span>-<span class="p-redpurple">redpurple</span>-<span class="p-redorange">redorange</span><br><br><br><br></span>
+                <!--tet--><span class="invisible"><span class="p-yellow">yellow</span>-<span class="p-green">green</span>-<span class="p-purple">purple</span>-<span class="p-red">red</span><br><br><br><br></span>
+                <!--tet--><span class="invisible"><span class="p-yelloworange">yelloworange</span>-<span class="p-yellowgreen">yellowgreen</span>-<span class="p-bluepurple">bluepurple</span>-<span class="p-redpurple">redpurple</span><br><br><br><br></span>
+                <!--tet--><span class="invisible"><span class="p-orange">orange</span>-<span class="p-yellow">yellow</span>-<span class="p-blue">blue</span>-<span class="p-purple">purple</span><br><br><br><br></span>
+                </p>
+            </article>
+        
+            <footer>
+                <hr/>
+                <br>
+                <p>info@emmauscollege.nl</p>
+                <p class="smalltext">copyright A.P. Cammeraat 2016</p>
+                <br>
+            </footer>
+        
+        </main>
+    
+    </body>
+
+</html>
